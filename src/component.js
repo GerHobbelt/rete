@@ -9,6 +9,7 @@ export class Component {
         this.template = props.template || defaultTemplate;
         this.builder = props.builder;
         this.worker = props.worker;
+        this.icon = props.icon;
     }
 
     newNode() {
