@@ -6,7 +6,7 @@ import { Output } from './output';
 
 export class Node extends Block {
    
-    constructor(title: string) {
+    constructor(title: string, icon: string) {
         super(Node);
         this.group = null;
         this.inputs = [];
@@ -15,6 +15,7 @@ export class Node extends Block {
         this.data = {};
 
         this.title = title;
+        this.icon = icon;
         [this.width, this.height] = [180, 100];
     }
 
