@@ -13,6 +13,6 @@ export class Component {
     }
 
     newNode() {
-        return new Node(this.name);
+        return new Node(this.name, this.icon);
     }
 }
